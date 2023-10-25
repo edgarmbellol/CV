@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(5, 5, 5);
+}
+.ContainerMenu{
+    margin-bottom: 10vh;
+}
+/* Contenedor de todo el menu de navegacion con nombre */
+.ContSup{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* estilso del contenedor del nombre */
+.ContNombre{
+    font-size: 3vw;
+    text-align: left; 
+    font-family: 'Anton', sans-serif;
+}
+.NombreIzq{
+    color: rgb(172, 172, 172); /* Color para la mitad izquierda del texto */
+    display: inline;
+}
+.NombreDer{
+    color: rgb(255, 255, 255); /* Color para la mitad derecha del texto */
+    display: inline;
+}
+/* Estilos del menu de navegacion */
+.ContMenu{
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+/* Estilos parte derecha del menu de navegacuion */
+.ContBoton{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+.ContBoton div{
+    font-size: large;
+    width: 70%;
+    border: 3px solid #18fd03;
+    border-radius: 15px;
+}
+/* Estilos del banner principal */
+.ContainerBanner{
+    margin-bottom: 20vh;
+}
+.BannerTexto{
+    text-align: left;
+}
+.BannerP{
+    color: #fff;
+}
+.TextoB1{
+    font-size: 2.5vw;
+    font-family: 'Fjalla One', sans-serif;
+}
+.TextoB2{
+    font-family: monospace;
+    font-size: 3.5vw;
+    color: #18fd03;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+/* Estilos seccion sobre mi */
+.ContSobreMi{
+    text-align: left;
+}
+.TituloSobreMi{
+    color: #18fd03;
+    text-align: center;
+}
+.TextoSobreMi{
+    color: #fff;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+/* cuadro con habilidades  */
+.ContainerSobreMi{
+    margin-bottom: 20vh;
+}
+.CuadroHabilidad{
+    background-color: #4f4f4f;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    margin-bottom: 5px;
+    padding: 4%;
+}
+.ContornoBarra{
+    width: 100%;
+    height: 8px; /* Altura de la barra de carga */
+    background-color: #fff; /* Color de fondo de la barra de carga */
+    position: relative;
+    border-radius: 5px;
+}
+.BarraProgreso{
+    width: 100%;
+    height: 100%;
+    background-color: #18fd03;
+    text-align: center;
+    line-height: 4px; /* Alinea verticalmente el texto en el centro de la barra */
+    color: #fff; /* Color del texto */
+    border: #18fd03;
+    border-radius: 5px;
+}
+
+/* INICIO SECCION DE PROYECTOS */
+.TituloProyectos{
+    color: #18fd03;
+}
+.ConteProyecto{
+    border: 2px solid #18fd03;
+    height: 65vh;
+}
+.ConteProyecto h3{
+    color: #fff;
+}
+.ConteProyecto span{
+    color: #fff;
+    font-size: 2.3vh;
+}
