@@ -24,10 +24,20 @@ body{
 }
 /* Estilos del menu de navegacion */
 .ContMenu{
+    display: flex;
+}
+.ContMenu ul{
+    list-style-type: none;
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+.ContMenu li a{
+    text-decoration: none;
+    color: #fff;
     font-weight: bold;
     font-size: 1.5vw;
-    color: rgb(255, 255, 255);
-    justify-content: center;
+    margin: 1vw;
 }
 /* Estilos parte derecha del menu de navegacuion */
 .ContBoton{
@@ -67,10 +77,6 @@ body{
 .ContSobreMi{
     text-align: left;
 }
-.TituloSobreMi{
-    color: #18fd03;
-    text-align: center;
-}
 .TextoSobreMi{
     color: #fff;
     font-size: 2.5vh;
@@ -88,6 +94,7 @@ body{
     font-family: monospace;
     margin-bottom: 5px;
     padding: 4%;
+    margin-bottom: 15px;
 }
 .ContornoBarra{
     width: 100%;
@@ -108,17 +115,17 @@ body{
 }
 
 /* INICIO SECCION DE PROYECTOS */
-.TituloProyectos{
+.Titulos{
     color: #18fd03;
+    text-align: center;
 }
 .ConteProyecto{
     border: 2px solid #18fd03;
-    height: 65vh;
 }
 .ConteProyecto h3{
     color: #fff;
 }
 .ConteProyecto span{
     color: #fff;
-    font-size: 2.3vh;
+    font-size: 3vh;
 }
